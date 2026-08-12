@@ -17,7 +17,7 @@ Cyber Security Enthusiast • Graphic Designer
 - 🛡️ Focused on building secure, real-world systems — intrusion detection, encrypted messaging, and access-control models
 - 💻 Also build full-stack and AI-driven applications, often in team settings
 - 🌱 Currently exploring **SIEM tooling, network security, and LLM-integrated applications**
-- 🤝 Looking for **Software Engineering / Cyber Security internships and AI/ML opportunities**
+- 🤝 Looking for **Software Engineering / Cyber Security internships**
 
 ---
 
@@ -37,7 +37,7 @@ Cyber Security Enthusiast • Graphic Designer
 - `React` `Node.js` `Socket.io` `MongoDB` `Web Crypto API`
 
 #### 📋 FORMA-AI — Open-Source AI-Driven Form & Data Collection Platform
-- AI-enhanced alternative to KoboToolbox, built with a 5-member team over 8 months
+- AI-enhanced alternative to KoboToolbox, built with a 4-member team over 2 months
 - Multilingual support via **NLLB-200**, local inference with **Ollama**, async processing with **Celery/Redis**
 - Field-level **AES-256-GCM** encryption, JWT hardening, prompt-injection prevention
 - `Next.js 14` `FastAPI` `PostgreSQL` `Ollama` `MinIO`
@@ -51,11 +51,20 @@ Cyber Security Enthusiast • Graphic Designer
 
 ### 💼 Experience
 
-**IT Intern — CCRAS, Delhi** (Jun 2026 – Jul 2026)
-Extended KoboToolbox with a custom Person Registry, automated form interlinking, and REST APIs for cross-form record linkage.
+**IT Intern — CCRAS, Delhi** — June 2026 – July 2026 
+- Extended KoboToolbox (KPI) by developing a custom Person Registry to enable unified person profiles and cross
+form record linkage for longitudinal data management.
+- Designed and implemented automated form interlinking, allowing multiple Kobo form submissions to be associated with a single person through persistent unique identifiers.
+- Built configurable field mapping and autofill workflows that standardized data retrieval across linked forms, reducing duplicate entries and manual data collection.
+- Developed REST APIs and registry management modules for person search, timeline visualization, linked sub
+mission tracking, and administrative workflow automation within KoboToolbox
 
-**Intern/Trainee — ONGC, Delhi** (Jun 2025 – Jul 2025)
-Built HR systems in **SAP ABAP** (Z-tables, module pool screens, ALV reports, Adobe Smart Forms), reducing HR reporting time by **60%**.
+**Intern/Trainee — ONGC, Delhi** — (Jun 2025 – Jul 2025) 
+- Designed a system using SAP ABAP with custom Z-tables, module pool screens, and structured workflows.
+- Implemented CRUD operations, ALV reports and tab-strip navigation
+- Automated HR data handling using Open SQL and function modules.
+- Developed Adobe Smart Forms to generate dynamic employee PDF reports.
+- Centralized employee data using SAP ABAP, reducing HR reporting time by 60%
 
 ---
 
