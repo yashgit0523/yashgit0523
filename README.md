@@ -4,7 +4,7 @@ Cyber Security Enthusiast • Graphic Designer
 </h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=B.Tech+CSE+(Cyber+Security+%26+Forensics);Building+AI-Powered+Security+Systems;IoT+Intrusion+Detection+%7C+Secure+Messaging;Full+Stack+%2B+SIEM+%2B+Pentesting;Always+Learning+New+Technologies" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=B.Tech+CSE+(Cyber+Security+%26+Forensics) @ UPES;Building+AI-Powered+Security+Systems;IoT+Intrusion+Detection+%7C+Secure+Messaging;Full+Stack+%2B+SIEM+%2B+Pentesting;Always+Learning+New+Technologies" />
 </p>
 
 <p align="center"><img src="https://komarev.com/ghpvc/?username=yashgit0523&label=Profile%20Views&color=0e75b6&style=flat"/></p>
