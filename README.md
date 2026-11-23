@@ -23,6 +23,15 @@ Cyber Security Enthusiast • Graphic Designer
 
 ### 🚀 Featured Projects
 
+#### 🧱 PromptGuard — AI Prompt Injection Detection & Firewall
+- Defense-in-depth firewall protecting LLM apps from **direct and indirect prompt injection** (OWASP **LLM01**), combining detection with capability control
+- **30 weighted rules across 10 attack categories** plus 11 heuristics, Base64/hex/URL/ROT13 recursive decoding, and Unicode smuggling detection (zero-width, bidi, TAG, homoglyphs)
+- Explainable **0–100 risk scoring** with context analysis that tells *discussing* an attack from *performing* it, mapped to ALLOW / WARN / SANITIZE / BLOCK policies
+- **Provenance & taint tracking** with nonce-keyed fences, a 6-check **tool-call firewall**, and an **output leakage firewall** with canary detection (plain, encoded, obfuscated)
+- **93% accuracy, 100% precision, 0% false positives** on an 86-sample labelled dataset · **205 pytest tests** · 13-scenario Attack Demo Lab
+- 🔗 [Live Demo](https://promptguard-api-u3xj.onrender.com/) · [API Docs](https://promptguard-api-u3xj.onrender.com/docs)
+- `Python` `FastAPI` `Pydantic` `SQLite` `Docker` `Render`
+
 #### 🛰️ SentinelNode — AI-Based Edge Network Intrusion Detection System
 - Real-time IoT network intrusion detection built with **C++20, XGBoost, Raspberry Pi 5**
 - Zero-copy packet parsing engine improving processing speed by **2000×**, O(1) memory footprint
