@@ -32,6 +32,14 @@ Cyber Security Enthusiast • Graphic Designer
 - 🔗 [Live Demo](https://promptguard-api-u3xj.onrender.com/) · [API Docs](https://promptguard-api-u3xj.onrender.com/docs)
 - `Python` `FastAPI` `Pydantic` `SQLite` `Docker` `Render`
 
+#### 🗑️ Secure Deletion Verification — Digital Forensics Mini-Lab
+- Automated forensic lab testing whether **5 deletion methods** (`rm`, quick format, `shred` ×1, `shred` ×3 + zero, free-space zero-fill) really remove recoverable traces on **ext4, FAT32 and NTFS** disk images
+- Every image goes through 4 independent checks: **Sleuth Kit** metadata recovery (`fls`/`icat`), **foremost** signature carving, raw marker search, and sector-level location tracking
+- Found that `shred` and zero-fill destroy file content but **filenames survive on every file system**. Traced 61 leftover name hits to the **ext4 journal** (inode 8) with `ifind`/`istat`
+- Proved that ext4's "clean" quick format comes from **mke2fs block discard**, not formatting itself (`-E nodiscard` left all 203 markers intact)
+- SHA-256 **chain of custody** across 13 runs, and byte-identical results across repeated and changed-seed runs. Caught and fixed 2 measurement bugs (JPEG carving rule, UTF-16/8.3 name search)
+- `Bash` `Python` `Sleuth Kit` `foremost` `ext4/FAT32/NTFS` `Linux`
+
 #### 🛰️ SentinelNode — AI-Based Edge Network Intrusion Detection System
 - Real-time IoT network intrusion detection built with **C++20, XGBoost, Raspberry Pi 5**
 - Zero-copy packet parsing engine improving processing speed by **2000×**, O(1) memory footprint
